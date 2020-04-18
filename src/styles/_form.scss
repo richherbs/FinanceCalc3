@@ -1,0 +1,9 @@
+form{
+    @include containerStyle;
+    input{
+        @include formInputAndLabel;
+    }
+    label{
+        @include formInputAndLabel;
+    }
+}

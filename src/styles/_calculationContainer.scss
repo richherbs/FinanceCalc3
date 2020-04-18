@@ -1,0 +1,10 @@
+.calculation-container{
+    @include containerStyle;
+    div{
+        @include formInputAndLabel;
+    }
+
+    &:last-child{
+        margin-bottom: 10px;
+    }
+}

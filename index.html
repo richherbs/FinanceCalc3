@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/styles/normalize.css">
+    <link rel="stylesheet" href="dist/styles/styles.css">
+    <script src="dist/scripts/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.0/mustache.js" defer></script>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Generic Finance Calculator</h1>
+    </div>
+    <form action="">
+        <label for="loan">How much would you like to borrow</label>
+        <input type="text" name="loan">
+        <label for="salary">How much do you get paid per year?</label>
+        <input type="text" name="salary">
+        <label for="repayment">As a percentage of your salary how much would you like to pay back each month?</label>
+        <input type="text" name="repayment">
+        <button class="calculate">Calculate</button>
+    </form>
+    <div class="calculation-container display-none">
+
+    </div>
+</body>
+</html>

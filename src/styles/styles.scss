@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins";
+@import "body";
+@import "title";
+@import "form";
+@import "calculationContainer";
+@import "button";
+@import "displayNone";
+@import "last";
+
+*{
+    box-sizing: border-box;
+}
